@@ -98,12 +98,12 @@
   }
 
   .sign {
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
-    margin: 75px;
     flex-direction: column;
     position: relative;
     margin-left: 5%;
+    width: 60px;
   }
 }
 
@@ -116,6 +116,7 @@
   background-size: cover;
   background-position: center;
   height: 350px;
+  width: 100%;
   justify-content: center;
 }
 
@@ -159,6 +160,7 @@
 @media (min-width: 600px) {
   .header {
     padding: 30px;
+    width: 100%;
   }
 
   .header h2 {
@@ -182,6 +184,7 @@
 @media (min-width: 1024px) {
   .header {
     padding: 40px;
+    width: 100%;
   }
 
   .header h2 {
@@ -213,7 +216,6 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f8f9f8;
 }
 
 .feature > * {
@@ -293,7 +295,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f8f9fa;
+  width: 100%;
 }
 
 .image-feature {
@@ -382,7 +384,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f8f9fa;
+  width: 100%;
 }
 
 .head {
@@ -399,7 +401,6 @@
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
 }
 
@@ -467,6 +468,7 @@ h3 {
   padding: 20px;
   background-image: url("https://th.bing.com/th/id/OIP.jLfdjAOOU0w-Xp1rlsZYBgHaHa?w=600&h=600&rs=1&pid=ImgDetMain");
   background-size: cover;
+  width: 100%;
   background-position: center;
   height: 200px;
   justify-content: center;
@@ -566,6 +568,7 @@ h3 {
 .footer {
   background-color: #f8f9fa;
   padding: 20px;
+  width: 100%;
   text-align: center;
 }
 
